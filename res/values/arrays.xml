@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="map_overlay_type">
+        <item>武大景点</item>
+        <item>院系大楼</item>
+        <item>服务站点</item>
+    </string-array>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="highlight">#cc33b5e5</color>
+    <color name="side_menu_background">#ff282828</color>
+    <color name="side_menu_divider">#ff222222</color>
+    <color name="side_menu_divider_light">#ff444444</color>
+    <color name="side_menu_selected">#ff393939</color>
+    <color name="side_menu_text_light">#fff5f5f5</color>
+    <color name="side_menu_text_dark">#ff7f7f7f</color>
+    <color name="pressed_woolenonigiri">#CC33B5E5</color>
+    <color name="sns_publish_limit_color">#ff808080</color>
+    <color name="white">#ffffff</color>
+    <color name="nav_drawer_background">#ffffffff</color>
+    <color name="nav_drawer_text">#ff505050</color>
+    <color name="nav_drawer_divider">#ffe1e1e1</color>
+    <color name="nav_drawer_current">#ffe6e6e6</color>
+    <color name="nav_drawer_pressed">#ff98a1d7</color>
+</resources>

@@ -1,0 +1,57 @@
+<resources>
+
+    <style name="Theme.MapUre" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.MapUre</item>
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+        <item name="android:spinnerDropDownItemStyle">@style/CustomDropDownItemStyle</item>
+        <item name="android:actionDropDownStyle">@style/ActionBarDropDownStyle</item>
+    </style>
+
+    <style name="ActionBarDropDownStyle" parent="@android:style/Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/actionbar_dropdown_navigation_item_background_light</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:spinnerMode">dropdown</item>
+        <item name="android:dropDownWidth">200dp</item>
+        <item name="android:dropDownVerticalOffset">0dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+    </style>
+
+    <style name="CustomDropDownItemStyle" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textAppearance">@style/CustomDropDownItemTextStyle</item>
+    </style>
+
+    <style name="CustomDropDownItemTextStyle" parent="@android:style/Widget">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+    
+    <style name="ActionBar.Solid.MapUre" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/ab_solid_mapure</item>
+    </style>
+
+    <style name="activityAnimation" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/scale_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/scale_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out</item>
+    </style>
+
+    <style name="Widget.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/ab_solid_mapure</item>
+    </style>
+
+    <style name="Widget.ActionBar.Transparent" parent="@style/Widget.ActionBar">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.TranslucentActionBar" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/Widget.ActionBar.Transparent</item>
+    </style>
+
+    <style name="Theme.TranslucentActionBar.ActionBar" parent="@style/Theme.TranslucentActionBar" />
+    <style name="Theme.TranslucentActionBar.ActionBar.Overlay" parent="@style/Theme.TranslucentActionBar.ActionBar">
+        <item name="android:actionBarStyle">@style/Widget.ActionBar.Transparent</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+</resources>

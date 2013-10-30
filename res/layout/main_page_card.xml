@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/listPreferredItemHeight"
+        >
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/card_background">
+
+        <ImageView
+                android:id="@+id/top_stories_card_pic"
+                android:layout_width="match_parent"
+                android:layout_height="190sp"
+                android:scaleType="centerCrop"/>
+
+        <TextView
+                android:id="@+id/top_stories_article_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/top_stories_card_pic"
+                android:background="#77000000"
+                android:paddingBottom="14dip"
+                android:paddingLeft="8dip"
+                android:paddingTop="14dip"
+                android:textColor="#FFFFFFFF"
+                android:textSize="19sp"/>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

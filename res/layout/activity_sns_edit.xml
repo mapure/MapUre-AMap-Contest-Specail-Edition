@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="16.0dip" >
+
+    <RelativeLayout
+        android:id="@+id/edit_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/base_edittext_drawable" >
+
+        <FrameLayout
+            android:id="@+id/share_pic_container"
+            android:layout_width="62.0dip"
+            android:layout_height="62.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/biz_sns_publish_pic_bg"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/share_pic"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_margin="2.0dip" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|right|center"
+                android:src="@drawable/biz_sns_publish_pic_tag" />
+        </FrameLayout>
+
+        <EditText
+            android:id="@+id/sns_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/share_pic_container"
+            android:background="@null"
+            android:gravity="top|left|center"
+            android:hint="@string/sns_publis_hint"
+            android:maxLength="2000"
+            android:minLines="5"
+            android:paddingLeft="14.0dip"
+            android:paddingRight="14.0dip"
+            android:textColor="#ff2f2f2f"
+            android:textSize="16.0sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/sns_publish_limit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:gravity="right|center"
+        android:singleLine="true"
+        android:textColor="#ff808080"
+        android:textSize="14.0sp" />
+
+</LinearLayout>

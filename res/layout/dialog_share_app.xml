@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pop_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffe6e6e6"
+    android:paddingBottom="30.0sp"
+    android:paddingLeft="21.0sp"
+    android:paddingRight="21.0sp"
+    android:paddingTop="30.0sp"
+    android:weightSum="3.0" >
+
+    <LinearLayout
+        android:id="@+id/wechat_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:orientation="vertical"
+        android:paddingRight="7.0sp" >
+
+        <ImageView
+            android:id="@+id/wechat_icon"
+            android:layout_width="45.0sp"
+            android:layout_height="45.0sp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/wechat"
+            android:scaleType="matrix" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15.0sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4.0sp"
+            android:gravity="center"
+            android:text="@string/wechat"
+            android:textSize="10.0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/moments_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:orientation="vertical"
+        android:paddingLeft="7.0sp"
+        android:paddingRight="7.0sp" >
+
+        <ImageView
+            android:id="@+id/moments_icon"
+            android:layout_width="45.0sp"
+            android:layout_height="45.0sp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/moments"
+            android:scaleType="matrix" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15.0sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4.0sp"
+            android:gravity="center"
+            android:text="@string/moments"
+            android:textSize="10.0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/weibo_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:orientation="vertical"
+        android:paddingLeft="7.0sp" >
+
+        <ImageView
+            android:id="@+id/weibo_icon"
+            android:layout_width="45.0sp"
+            android:layout_height="45.0sp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/weibo"
+            android:scaleType="matrix" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15.0sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4.0sp"
+            android:gravity="center"
+            android:text="@string/weibo"
+            android:textSize="10.0sp" />
+    </LinearLayout>
+
+</LinearLayout>
